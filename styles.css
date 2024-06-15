@@ -1,1 +1,39 @@
-Основной файл стилей проекта
+p{
+    color: blue;
+}
+
+li{
+    color: red;
+}
+
+.zagolovok{
+    background-color: rgb(206, 162, 197);
+}
+
+#header{
+    font-size: 30px;
+}
+
+h1{border-bottom: 4px solid black 
+
+}
+
+h2.intro{
+    color: black;
+    background-color: rgb(206, 162, 197);
+    
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: blueviolet;
+}
+body{
+    background-color: aliceblue;
+}
+li{
+    background-image: url(triangle.jpeg);
+}
