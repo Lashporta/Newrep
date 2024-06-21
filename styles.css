@@ -7,7 +7,7 @@ li{
 }
 
 .zagolovok{
-    background-color: rgb(206, 162, 197);
+    background-color: color #87d9da;
 }
 
 #header{
@@ -20,7 +20,7 @@ h1{border-bottom: 4px solid black
 
 h2.intro{
     color: black;
-    background-color: rgb(206, 162, 197);
+    background-color: color#87d9da;
     
 }
 
@@ -33,7 +33,26 @@ a:hover{
 }
 body{
     background-color: aliceblue;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 li{
     background-image: url(triangle.jpeg);
+}
+nav{
+    background-color: #87d9da;
+    padding: 10px;
+    margin-bottom:  20px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+nav ul li a{
+    color: blue;
+    text-decoration: none;
 }
