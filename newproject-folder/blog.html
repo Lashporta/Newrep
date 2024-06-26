@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мой блог</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="./blog.html">Блог</a></li>
+        <li><a href="product.html">Продукт</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li><a href="obrsvz.html">Обратная связь</a></li>
+      </ul>
+    </nav>
+    <h1>Мой блог</h1>
+
+    <!-- Пост блог 1 -->
+    <article class="post">
+      <h2>Как выбрать Imac?</h2>
+      <img
+        src="./images/lesson.jpg"
+        alt="Изображение к первому посту"
+        height="400px"
+        width="800px"
+      />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic qui
+        eveniet illum at! Nesciunt cumque exercitationem reprehenderit illo qui
+        vel rem rerum ullam ipsum. <br />
+        Quaerat corporis iste dolores voluptates praesentium.
+      </p>
+    </article>
+
+    <!-- Пост блог 2 -->
+    <article class="post">
+      <h2>Шаг в IT залог успеха</h2>
+      <img
+        src="./images/lesson.jpg"
+        alt="Изображение ко второму посту"
+        height="400px"
+        width="800px"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
+        adipisci esse modi explicabo doloremque facilis quibusdam blanditiis
+        nisi aperiam nostrum repellat eaque laborum commodi omnis aspernatur est
+        impedit, aut deleniti?
+      </p>
+    </article>
+
+    <!-- Форма для комментариев -->
+    <form class="comment-form">
+      <h2>Оставьте комментарий</h2>
+      <label for="name">Ваше имя:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Ваш email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="comment">Текст комментария:</label>
+      <textarea id="comment" name="comment" required></textarea>
+
+      <input type="submit" value="Отправить комментарий" />
+    </form>
+  </body>
+</html>
