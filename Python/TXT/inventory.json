@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "item": "Laptop",
+            "quantity": 15
+        },
+        {
+            "item": "Mouse",
+            "quantity": 30
+        },
+        {
+            "item": "Keyboard",
+            "quantity": 25
+        }
+    ]
+}
